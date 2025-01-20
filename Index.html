@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 2.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.3rem;
+            font-style: italic;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4e3fa9;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: bold;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+        .container {
+            padding: 4rem 1.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2.5rem;
+            background: white;
+            border-radius: 10px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #6a11cb;
+            border-bottom: 2px solid #6a11cb;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        section p, section ul {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        section ul li {
+            margin-bottom: 0.8rem;
+            list-style: disc;
+            padding-left: 1.5rem;
+        }
+        footer {
+            background-color: #6a11cb;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: white;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #6a11cb;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Yash's Website</h1>
+        <p>Your one-stop destination to know about me!</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Yash, a passionate developer with a keen interest in cloud computing and web development. I have over 2.5 years of experience working in the telecom industry and a strong foundation in operating systems like Linux and Windows.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>AWS Cloud Practitioner Certified</li>
+                <li>Microsoft AZ-104 Certified</li>
+                <li>Proficient in Linux and Windows operating systems</li>
+                <li>Experience in Telecom Projects</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:yashp1678@gmail.com">yashp1678@gmail.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Yash. All Rights Reserved. | Designed with ♥ by <a href="#">Yash</a></p>
+    </footer>
+</body>
+</html>
