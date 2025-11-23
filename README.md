@@ -26,7 +26,7 @@ Build Tool: Vite
 
 Icons: Lucide React, Devicon
 
-
+```
 yash-portfolio/
 ├── public/
 │   ├── resume.pdf          # Resume file
@@ -41,7 +41,7 @@ yash-portfolio/
 ├── tailwind.config.js      # Tailwind Configuration
 ├── postcss.config.js       # PostCSS Configuration
 └── package.json            # Dependencies & Scripts
-
+```
 
 🚀 Getting Started
 
@@ -50,27 +50,27 @@ Follow these steps to run the project locally.
 Prerequisites
 
 Ensure Node.js and npm are installed:
-
+```bash
 node -v
 npm -v
-
+```
 Installation
 
 Clone the repository
-
+```bash
 git clone https://github.com/YashPatil1678/yash-portfolio.git
 cd yash-portfolio
-
+```
 
 Install dependencies
-
+```bash
 npm install
-
+```
 
 Start development server
-
+```bash
 npm run dev
-
+```
 
 Open in browser
 
